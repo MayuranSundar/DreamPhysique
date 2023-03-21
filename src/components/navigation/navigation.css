@@ -1,0 +1,29 @@
+nav{
+  background-color: var(--color-black);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+ul{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.navigation__link__social{
+  display: flex;
+  padding-top: 5px;
+  gap: 1rem;
+  align-items: center;
+}
+
+.navigation__link__social::before{
+  content: '';
+  width: 1px;
+  height: 1rem;
+  text-align: center;
+  margin-bottom: 5px;
+  background-color: var(--color-primary);
+}

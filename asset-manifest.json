@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DreamPhysique/static/css/main.e40b0648.css",
-    "main.js": "/DreamPhysique/static/js/main.cf504e23.js",
+    "main.js": "/DreamPhysique/static/js/main.1bae4d33.js",
     "static/media/3.jpg": "/DreamPhysique/static/media/3.196e4db13b4db71e39da.jpg",
     "static/media/1.jpg": "/DreamPhysique/static/media/1.0252996a91c644d6c44b.jpg",
     "static/media/profile.jpg": "/DreamPhysique/static/media/profile.b63ddf2161b9124254f9.jpg",
@@ -12,10 +12,10 @@
     "static/media/slick.woff": "/DreamPhysique/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/DreamPhysique/index.html",
     "main.e40b0648.css.map": "/DreamPhysique/static/css/main.e40b0648.css.map",
-    "main.cf504e23.js.map": "/DreamPhysique/static/js/main.cf504e23.js.map"
+    "main.1bae4d33.js.map": "/DreamPhysique/static/js/main.1bae4d33.js.map"
   },
   "entrypoints": [
     "static/css/main.e40b0648.css",
-    "static/js/main.cf504e23.js"
+    "static/js/main.1bae4d33.js"
   ]
 }

@@ -1,29 +1,101 @@
-nav{
+nav {
   background-color: var(--color-black);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 1rem;
+  min-height: 33px;
 }
 
-ul{
+ul {
   display: flex;
   gap: 1rem;
   align-items: center;
 }
 
-.navigation__link__social{
+.navigation__link__social {
   display: flex;
   padding-top: 5px;
   gap: 1rem;
   align-items: center;
 }
 
-.navigation__link__social::before{
+.navigation__link__social::before {
   content: '';
   width: 1px;
   height: 1rem;
   text-align: center;
   margin-bottom: 5px;
   background-color: var(--color-primary);
+}
+
+/* CSS For Hamburger icon */
+@media (max-width: 768px) {
+  .navigation__menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .navigation__menu-icon {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 1.5rem;
+  }
+
+  .navigation__menu-icon-line {
+    width: 1.5rem;
+    height: 2px;
+    background-color: var(--color-white);
+    border-radius: 1rem;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .navigation__menu-icon-line.open:nth-child(1) {
+    transform: rotate(45deg) translate(0.25rem, 0.25rem);
+  }
+
+  .navigation__menu-icon-line.open:nth-child(2) {
+    opacity: 0;
+  }
+
+  .navigation__menu-icon-line.open:nth-child(3) {
+    transform: rotate(-45deg) translate(0.45rem, -0.45rem);
+  }
+
+  .navigation__menu-links {
+    position: absolute;
+    top: 27.2px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0rem 3rem 3rem;
+    background: rgb(0,0,0,0.3);
+    backdrop-filter: blur(15px);
+    width: 100vw;
+    z-index: 10;
+    padding: 2rem 0;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+  }
+
+  .navigation__menu-links.open {
+    transform: translateX(0);
+  }
+
+  .navigation__menu-links li {
+    margin: 1;
+  }
+  .navigation__link__social{
+    flex-direction: column;
+  }
+  .navigation__link__social::before {
+    width: 2rem;
+    height: 1px;
+  }
+
+ 
 }

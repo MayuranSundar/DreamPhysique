@@ -3,6 +3,8 @@ import './about.css'
 import {TbCertificate} from 'react-icons/tb'
 import {FiUsers} from 'react-icons/fi'
 import {CgGym} from 'react-icons/cg'
+import profile from '../../images/profile.jpg'
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -13,7 +15,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            {/* <img src={MeAnim} alt="About Me" /> */}
+            <img src={profile} alt="About Me" />
           </div>
         </div>
 
@@ -39,12 +41,14 @@ const About = () => {
           </div>
 
           <p>
-            I have been working out for over 10 years with the aim of being healthy and fit. 
+            Hi, I am Arber. I have been working out for over 10 years with the aim of being healthy and fit. 
             With the knowledge I have gained thorughout the years of training and my education, I have helped many of my close friends and family
             to be the best version of themselves. Now I am invested in doing the same for my clients.
           </p>
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
-
+          
+          <Link to="/#contact" className="btn btn-primary">
+            Let's Talk
+          </Link>
         </div>
       </div>
     </section>

@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/DreamPhysique/static/css/main.e40b0648.css",
-    "main.js": "/DreamPhysique/static/js/main.1bae4d33.js",
-    "static/media/3.jpg": "/DreamPhysique/static/media/3.196e4db13b4db71e39da.jpg",
-    "static/media/1.jpg": "/DreamPhysique/static/media/1.0252996a91c644d6c44b.jpg",
+    "main.css": "/DreamPhysique/static/css/main.65d0ae49.css",
+    "main.js": "/DreamPhysique/static/js/main.6c1d1bce.js",
+    "static/media/slide3.jpg": "/DreamPhysique/static/media/slide3.196e4db13b4db71e39da.jpg",
+    "static/media/slide1.jpg": "/DreamPhysique/static/media/slide1.0252996a91c644d6c44b.jpg",
     "static/media/profile.jpg": "/DreamPhysique/static/media/profile.b63ddf2161b9124254f9.jpg",
-    "static/media/2.jpg": "/DreamPhysique/static/media/2.f99db8a63ba0f6b4b68a.jpg",
+    "static/media/slide2.jpg": "/DreamPhysique/static/media/slide2.f99db8a63ba0f6b4b68a.jpg",
     "static/media/slick.svg": "/DreamPhysique/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/DreamPhysique/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/DreamPhysique/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/DreamPhysique/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/DreamPhysique/index.html",
-    "main.e40b0648.css.map": "/DreamPhysique/static/css/main.e40b0648.css.map",
-    "main.1bae4d33.js.map": "/DreamPhysique/static/js/main.1bae4d33.js.map"
+    "main.65d0ae49.css.map": "/DreamPhysique/static/css/main.65d0ae49.css.map",
+    "main.6c1d1bce.js.map": "/DreamPhysique/static/js/main.6c1d1bce.js.map"
   },
   "entrypoints": [
-    "static/css/main.e40b0648.css",
-    "static/js/main.1bae4d33.js"
+    "static/css/main.65d0ae49.css",
+    "static/js/main.6c1d1bce.js"
   ]
 }

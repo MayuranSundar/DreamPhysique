@@ -28,6 +28,7 @@
 }
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 ::-webkit-scrollbar{ 
@@ -39,6 +40,8 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
+    overflow-x: hidden !important;
+    position:relative;
 }
 
 /* ============== GENERAL STYLES ============== */
@@ -129,4 +132,6 @@ img{
     section > h2{
         margin-top: 2rem;
     }
+    
+
 }

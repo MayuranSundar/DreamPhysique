@@ -1,11 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import './footer.css'
 import {BsFacebook, BsDiscord } from 'react-icons/bs';
 import {RiInstagramFill} from 'react-icons/ri'
-import { Link } from 'react-router-dom';
 
 /* eslint-disable jsx-a11y/anchor-is-valid */
 const Footer = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   return (
     <footer>
       <p className="footer__logo">Dream Physique</p>
@@ -24,7 +30,7 @@ const Footer = () => {
         <small>&copy; Arber Krasniqi. All rights reserved.</small>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

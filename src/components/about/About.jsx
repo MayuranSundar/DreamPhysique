@@ -4,7 +4,6 @@ import {TbCertificate} from 'react-icons/tb'
 import {FiUsers} from 'react-icons/fi'
 import {CgGym} from 'react-icons/cg'
 import profile from '../../images/profile.jpg'
-import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -45,10 +44,6 @@ const About = () => {
             With the knowledge I have gained thorughout the years of training and my education, I have helped many of my close friends and family
             to be the best version of themselves. Now I am invested in doing the same for my clients.
           </p>
-          
-          <Link to="/#contact" className="btn btn-primary">
-            Let's Talk
-          </Link>
         </div>
       </div>
     </section>
